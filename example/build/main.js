@@ -611,10 +611,10 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                    if(menustate == 2) {
                     ImGui.GetIO().FontGlobalScale = 1;
                     ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Информационные технологии в обществе").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Информационные технологии в обществе");
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Информационные технологии в обществе").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    if(ImGui.Text("Информационные технологии в обществе")) menustate = 0;
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Хранение и обработка информации в базах данных").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Хранение и обработка информации в базах данных");
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Хранение и обработка информации в базах данных").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    if(ImGui.Text("Хранение и обработка информации в базах данных")) menustate = 0;
 
 
                     var s1 = ImGui.GetStyle();
@@ -839,10 +839,10 @@ ImGui.GetIO().FontGlobalScale = 1;
                    if(menustate == 3) {
                     ImGui.GetIO().FontGlobalScale = 1;
                     ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Основы веб-конструирования").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Основы веб-конструирования");
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Основы веб-конструирования").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    if(ImGui.Text("Основы веб-конструирования")) menustate = 0;
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Компьютер как универсальное устройство обработки информации").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Компьютер как универсальное устройство обработки информации");
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Компьютер как универсальное устройство обработки информации").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    if(ImGui.Text("Компьютер как универсальное устройство обработки информации")) menustate = 0;
 
 
                     var s1 = ImGui.GetStyle();
@@ -1017,10 +1017,10 @@ ImGui.GetIO().FontGlobalScale = 1;
                    if(menustate == 4) {
                     ImGui.GetIO().FontGlobalScale = 1;
                     ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Введение в ООП").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Введение в ООП");
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Введение в ООП").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    if(ImGui.Text("Введение в ООП")) menustate = 0;
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Компьютерные коммуникации и интернет").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Компьютерные коммуникации и интернет");
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Компьютерные коммуникации и интернет").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    if(ImGui.Text("Компьютерные коммуникации и интернет")) menustate = 0;
 
 
                     var s1 = ImGui.GetStyle();
