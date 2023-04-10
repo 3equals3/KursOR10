@@ -419,47 +419,47 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                         style.PopupBorderSize = 3;
                         changecolors();
                         ImGui.SetCursorPos(new ImGui.Vec2(((ImGui.GetWindowSize().x)*0.5) - (100/ aspect_ratio.y) + 2, 100));
-                        if(ImGui.Button("Компьютерное моделирование", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 1;
+                        if(ImGui.Button("Алгоритмы обработки массивов", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 1;
                         ImGui.PopStyleColor(4);
                         if (ImGui.IsItemHovered()) {
                             ImGui.PushStyleColor(ImGui.Col.Border, new ImGui.Vec4(19/255,148/255,197/255,255));
                             ImGui.PushStyleColor(ImGui.Col.PopupBg, ImGui.GetColorU32(ImGui.COL32(clear_color.x* 0xff, clear_color.y* 0xff, clear_color.z* 0xff, 255)));
                             ImGui.PushStyleColor(ImGui.Col.Text, new ImGui.Vec4(19/255,148/255,197/255,255));
-                            ImGui.SetTooltip("Компьютерное моделирование");
+                            ImGui.SetTooltip("Алгоритмы обработки массивов");
                             ImGui.PopStyleColor(3); //2
                         }
 
                         changecolors();
                         ImGui.SetCursorPos(new ImGui.Vec2(((ImGui.GetWindowSize().x)*0.5) - (100/ aspect_ratio.y) + 2 + (850/3.4/aspect_ratio.y), 100 + 150/aspect_ratio.y));
-                        if(ImGui.Button("Информационные технологии в обществе", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 2;
+                        if(ImGui.Button("Хранение и обработка информации в базах данных", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 2;
                         ImGui.PopStyleColor(4);
                         if (ImGui.IsItemHovered()) {
                             ImGui.PushStyleColor(ImGui.Col.Border, new ImGui.Vec4(19/255,148/255,197/255,255));
                             ImGui.PushStyleColor(ImGui.Col.PopupBg, ImGui.GetColorU32(ImGui.COL32(clear_color.x* 0xff, clear_color.y* 0xff, clear_color.z* 0xff, 255)));
                             ImGui.PushStyleColor(ImGui.Col.Text, new ImGui.Vec4(19/255,148/255,197/255,255));
-                            ImGui.SetTooltip("Информационные технологии в обществе");
+                            ImGui.SetTooltip("Хранение и обработка информации в базах данных");
                             ImGui.PopStyleColor(3); //2
                         }
                         changecolors();
                         ImGui.SetCursorPos(new ImGui.Vec2(((ImGui.GetWindowSize().x)*0.5) - (100/ aspect_ratio.y) - 2 - (850/4.3/aspect_ratio.y), 100 + 280/aspect_ratio.y));
-                        if(ImGui.Button("Основы веб-конструирования", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 3;
+                        if(ImGui.Button("Компьютер как универсальное устройство обработки информации", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 3;
                         ImGui.PopStyleColor(4);
                         if (ImGui.IsItemHovered()) {
                             ImGui.PushStyleColor(ImGui.Col.Border, new ImGui.Vec4(19/255,148/255,197/255,255));
                             ImGui.PushStyleColor(ImGui.Col.PopupBg, ImGui.GetColorU32(ImGui.COL32(clear_color.x* 0xff, clear_color.y* 0xff, clear_color.z* 0xff, 255)));
                             ImGui.PushStyleColor(ImGui.Col.Text, new ImGui.Vec4(19/255,148/255,197/255,255));
-                            ImGui.SetTooltip("Основы веб-конструирования");
+                            ImGui.SetTooltip("Компьютер как универсальное устройство обработки информации");
                             ImGui.PopStyleColor(3); //2
                         }
                         changecolors();
                         ImGui.SetCursorPos(new ImGui.Vec2(((ImGui.GetWindowSize().x)*0.5) - (100/ aspect_ratio.y) + 2 + (850/4/aspect_ratio.y) - 30/aspect_ratio.y, 100 + 430/aspect_ratio.y));
-                        if(ImGui.Button("Введение в ООП", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 4;
+                        if(ImGui.Button("Компьютерные коммуникации и интернет", new ImGui.Vec2(200 / aspect_ratio.y, 200/ aspect_ratio.y))) menustate = 4;
                         ImGui.PopStyleColor(4);
                         if (ImGui.IsItemHovered()) {
                             ImGui.PushStyleColor(ImGui.Col.Border, new ImGui.Vec4(19/255,148/255,197/255,255));
                             ImGui.PushStyleColor(ImGui.Col.PopupBg, ImGui.GetColorU32(ImGui.COL32(clear_color.x* 0xff, clear_color.y* 0xff, clear_color.z* 0xff, 255)));
                             ImGui.PushStyleColor(ImGui.Col.Text, new ImGui.Vec4(19/255,148/255,197/255,255));
-                            ImGui.SetTooltip("Введение в ООП");
+                            ImGui.SetTooltip("Компьютерные коммуникации и интернет");
                             ImGui.PopStyleColor(3); //2
                         }
                         changecolors();
