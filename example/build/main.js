@@ -483,10 +483,10 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                    if(menustate == 1) {
                     ImGui.GetIO().FontGlobalScale = 1;
                     ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Компьютерное моделирование").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Компьютерное моделирование");
-                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Компьютерное моделирование").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
-                    if(ImGui.Text("Компьютерное моделирование")) menustate = 0;
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Алгоритмы обработки массивов").x)*0.5+1, 26)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    ImGui.TextColored(new ImGui.Vec4(0.0, 0.0, 0.0, 1.0),"Алгоритмы обработки массивов");
+                    ImGui.SetCursorPos(new ImGui.Vec2((ImGui.GetWindowSize().x - ImGui.CalcTextSize("Алгоритмы обработки массивов").x)*0.5, 25)); //ImGui.TextColored(new ImGui.Vec4(1.0, 0.0, 1.0, 1.0), "Pink");
+                    if(ImGui.Text("Алгоритмы обработки массивов")) menustate = 0;
 
 
                     var s1 = ImGui.GetStyle();
@@ -571,7 +571,7 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                         });
                         if(cmodels[6]){ 
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
-                            DrawButtonHREF("Компьютерное моделирование","https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5");
+                            DrawButtonHREF("Алгоритмы обработки массивов","https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5");
                             DrawButtonHREF("Компьютерное информационные модели","https://eior.by/catalog_lecture/11-klass/informatika/10.php");
                             DrawButtonHREF("Проектирование интерфейса оконного приложения с использованием элементов управления","https://eior.by/catalog_lecture/11-klass/informatika/2.php");
                             DrawButtonHREF("Моделирование случайных событий. Метод Монте-Карло","https://eior.by/catalog_lecture/11-klass/informatika/11.php");
