@@ -204,19 +204,21 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
             //7
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%20%D0%9C%D0%BE%D0%BD%D1%82%D0%B5-%D0%9A%D0%B0%D1%80%D0%BB%D0%BE.PNG",0,[1172,531]);
             
+            
+            //1
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC.PNG",1,[1600,641]);//разнообразие систем
+            //2
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A2%D0%B0%20%D1%81%D0%B0%D0%BC%D0%B0%D1%8F%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%202.png",1,[1765,815]);//та самая таблица 2 XD
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A2%D0%B0%20%D1%81%D0%B0%D0%BC%D0%B0%D1%8F%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%203.png",1,[1783,799]);//та самая таблица 3 XD
+            //3
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%94%D0%BE%D1%81%D1%82%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%D0%BD%D1%84%20%D1%82%D0%B5%D1%85%D0%BD.PNG",1,[1396,540]);//достижения
+            //4
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A7%D0%B5%D1%80%D1%82%D1%8B%20%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9.PNG",1,[1359,345]);//черты
+            //5
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%B0%D0%BC%D1%8B%D0%B5%20%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8%20%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B3%D0%BE.PNG",1,[926,528]);//работы
-            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9D%D0%B5%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BB%D0%B8%D0%BC%D1%8B%D0%B5%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F.PNG",1,[917,434]);//этикет
-            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%8D%D1%82%D0%B8%D0%BA%D0%B5%D1%82%D0%B0.PNG",1,[1073,646]);//базовые прв эт
-            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B%20%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9.png",1,[835,385]);//факторы уязв
-            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9C%D0%B5%D1%80%D1%8B%20%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8.PNG",1,[1017,672]);//меры
-            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BF%D0%BE%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%20%D0%B1%D0%B5%D0%B7.PNG",1,[1330,630]);//меры
-            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%92%D0%B8%D0%B4%D1%8B%20%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%B0%D0%BA.PNG",1,[1636,509]);//виды кбат
 
+            
+            
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/e506922fcb280aa9ccbdf97d9d5237861e55e640/pages/styles/img/wordcloud.svg",2,[800,800]);
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG",2,[1219,738]); //снимок
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.jpg",2,[1180,664]); //графика
@@ -662,13 +664,13 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                         
                         ImGui.GetIO().FontGlobalScale = 0.3;
 
-                        DrawGradientButton("Информационные системы, технологии", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Понятие базы данных. Системы управления базами данных.", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[0] = !itinsoc[0];
                         });
                         if(itinsoc[0]){  
 ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Реальные объекты и явления, наблюдаемые нами в мире, очень сложные, поэтому их принято рассматривать в виде системы. Система состоит из нескольких элементов, каждый выполняет свою функцию. Для лучшего понимания темы предлагаем рассмотреть следующую таблицу с примерами: `);
+//ImGui.TextWrapped(` Реальные объекты и явления, наблюдаемые нами в мире, очень сложные, поэтому их принято рассматривать в виде системы. Система состоит из нескольких элементов, каждый выполняет свою функцию. Для лучшего понимания темы предлагаем рассмотреть следующую таблицу с примерами: `);
 DrawIMG(images.soc[0], ImGui.GetWindowSize().x);         
 ImGui.GetIO().FontGlobalScale = 1;
 };
@@ -680,7 +682,7 @@ ImGui.GetIO().FontGlobalScale = 1;
                         if(itinsoc[1]){
 ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` В современном обществе широко распространено такое явление, как информационная система. Информационная система - это система, элементами которой являются данные, технические средства, специалисты, а связи образуются благодаря потокам информационных процессов.
+//ImGui.TextWrapped(` В современном обществе широко распространено такое явление, как информационная система. Информационная система - это система, элементами которой являются данные, технические средства, специалисты, а связи образуются благодаря потокам информационных процессов.
  Современные информационные системы являются автоматизированными, вот некоторые примеры: `);
 DrawIMG(images.soc[1], ImGui.GetWindowSize().x); 
 ImGui.GetIO().FontGlobalScale = 1;  
@@ -692,7 +694,7 @@ ImGui.GetIO().FontGlobalScale = 1;
                         if(itinsoc[2]){
 ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Информационная технология - совокупность способов, приемов и методов сбора, обработки и передачи данных. Такие технологии применяются во всех областях человеческой деятельности, а их инструментами являются аппаратное, программное и математическое обеспечение. Технологический процесс разбивают на этапы. Каждый этап состоит из операций и действий, приводящих к получению пользователем того, что он ожидает получить.
+//ImGui.TextWrapped(` Информационная технология - совокупность способов, приемов и методов сбора, обработки и передачи данных. Такие технологии применяются во всех областях человеческой деятельности, а их инструментами являются аппаратное, программное и математическое обеспечение. Технологический процесс разбивают на этапы. Каждый этап состоит из операций и действий, приводящих к получению пользователем того, что он ожидает получить.
 Для того чтобы использовать информационные технологии грамотно, нам необходимо узнать их классификацию из специальной таблицы ниже: `);
 DrawIMG(images.soc[2], ImGui.GetWindowSize().x); 
 ImGui.GetIO().FontGlobalScale = 1;  
@@ -704,7 +706,7 @@ ImGui.GetIO().FontGlobalScale = 1;
                         if(itinsoc[3]){
 ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Основой информационного общества является широкое использование информационных технологий во всех сферах деятельности человека. Такое общество отличается от индустриального высоким развитием информатики.
+//ImGui.TextWrapped(` Основой информационного общества является широкое использование информационных технологий во всех сферах деятельности человека. Такое общество отличается от индустриального высоким развитием информатики.
 Переход от индустриального общества к информационному подразумевает информатизацию.
 Информатизация - организационный социально-экономический и научно-технический процесс создания оптимальных условий для удовлетворения информационных потребностей людей.
 Важным в информатизации является наличие информационной культуры - совокупности знаний и умений человека, представленной в виде правил его поведения в информационном обществе. `);
@@ -717,7 +719,7 @@ ImGui.GetIO().FontGlobalScale = 1;
                         if(itinsoc[4]){
                             ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Неотъемлемой частью современного мира становятся технологии виртуальной и дополненной реальности.
+//ImGui.TextWrapped(` Неотъемлемой частью современного мира становятся технологии виртуальной и дополненной реальности.
 Виртуальная реальность - созданный техническими средствами мир, передаваемый человеку через его ощущения. Для погружения в неё используйте шлемы, очки или комнаты виртуальной реальности
 Дополненная реальность - технологии, которые дополняют реальный мир, добавляя любые сенсорные данные. Чтобы испытать такое на себе, достаточно обзавестись очками или шлемом дополненной реальности, можно также использовать смартфон или планшет.
 Сфера применения таких технологий достаточно широка - им находят применение в медицине, образовании, инженерии и сфере развлечений.
@@ -725,104 +727,6 @@ ImGui.TextWrapped(` Неотъемлемой частью современног
 DrawIMG(images.soc[3], ImGui.GetWindowSize().x); 
 ImGui.GetIO().FontGlobalScale = 1; 
                         };
-
-                        DrawGradientButton("Образование и профессиональная деятельность в информационном обществе", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[5] = !itinsoc[5];
-                        });
-                        if(itinsoc[5]){
-ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` В современном мире ключевое значение имеют знания. Для обозначения этого феномена используется термин «общество знаний». Его характерные черты указаны в таблице: `);
-DrawIMG(images.soc[4], ImGui.GetWindowSize().x); 
-ImGui.TextWrapped(` В «обществе знаний» инофрмационные технологии являются средством получения и усваивания новой информации.
-На основе владения информацией о самых различных процессах и явлениях можно эффективно и оптимально строить любую деятельность. При этом повышается не только качество потребления, но и качество производства: человек, использующий информационные технологии, имеет лучшие условия труда. Основным критерием развитости информационного общества можно считать количество населения, занятого в информационной сфере и использующего информационные и коммуникационные технологии в своей повседневной деятельности. В настоящее время достаточно много интернет-ресурсов предлагают обзоры профессий, которые будут актуальными в ближайшее время. Примеры таких должностей указаны ниже: `);
-DrawIMG(images.soc[5], ImGui.GetWindowSize().x); 
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Сетевой этикет", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[6] = !itinsoc[6];
-                        });
-                        if(itinsoc[6]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Сетевой этикет - это система правил, созданная людьми для общения друг с другом в сети Интернет. Этикет общения в Интернете рекомендуется соблюдать новичкам и опытным пользователям для комфорта. Однозначно сказать, что такое сетевой этикет невозможно, но в большинстве случаев это правила хорошего тона, общепринятые среди людей.
-Соблюдение правил хорошего тона повышает авторитет собеседника и привлекает внимание.
-Чтобы ответить на вопрос, как общаться в Интернете, следует узнать, что не рекомендуется делать. Сетевой этикет подразумевает отказ от следующих действий: `);
-DrawIMG(images.soc[6], ImGui.GetWindowSize().x); 
-ImGui.TextWrapped(` Вместо всего вышеперечисленного, лучше показать себя культурным и приличным человеком, придерживаясь базовых правил сетевого этикета: `);
-DrawIMG(images.soc[7], ImGui.GetWindowSize().x); 
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Кибербезопасность", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[7] = !itinsoc[7];
-                        });
-                        if(itinsoc[7]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` В современном информационном обществе самым важным ресурсом являются данные. Их утечка или утеря могут создать много трудностей как рядовым пользователям, так и крупным компаниям. Именно поэтому так важно задумываться о безопасности и сохранности своих данных в сети.
-
- Кибербезопасность - это состояние защищенности информационной инфраструктуры и содержащейся в ней информации от внешних и внутренних угроз. `);
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Уязвимости", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[8] = !itinsoc[8];
-                        });
-                        if(itinsoc[8]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Уязвимость - свойство информационной инфраструктуры или её объектов, которое позволяет реализовать угрозу. Факторы уязвимостей приведены ниже:`);
-DrawIMG(images.soc[8], ImGui.GetWindowSize().x); 
-ImGui.TextWrapped(` Таким образом, происходит переход в состояние киберустойчивости - способности информационной инфраструктуры успешно и предотвращать реализацию угроз, и быстро восстанавливаться.
-Для обеспечения киберустойчивости необходимо принять следующие меры: `);
-DrawIMG(images.soc[9], ImGui.GetWindowSize().x); 
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Профессии, связанные с кибербезопасностью", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[9] = !itinsoc[9];
-                        });
-                        if(itinsoc[9]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Информационная безопасность - одно из самых перспективных направлений в сфере ИТ. Профессионалы в области кибербезопасности защищают компании от утечек данных и прочих угроз. Ниже представлены некоторые основные специализации: `);
-DrawIMG(images.soc[10], ImGui.GetWindowSize().x); 
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Кибератаки", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[10] = !itinsoc[10];
-                        });
-                        if(itinsoc[10]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Кибератака - умышленное воздействие на информационную структуру с помощью программ. `);
-DrawIMG(images.soc[11], ImGui.GetWindowSize().x); 
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Киберустойчивость", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[11] = !itinsoc[11];
-                        });
-                        if(itinsoc[11]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Кибербезопасность требует грамотного обеспечения: наличия системы мер защиты информационной инфраструктуры и противодействия угрозам информационной безопасности.
-Таким образом происходит переход в состояние киберустойчивости - способности информационной инфраструктуры успешно предотвращать реализацию угроз или быстро восстанавливаться после их реализации. `);
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        /* DrawGradientButton("Итог", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[12] = !itinsoc[12];
-                        });
-                        if(itinsoc[12]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Подводя итог, стоит сказать, что никакие программы и устройства не защитят вас, если злоумышленник завладеет вашим доверием, поэтому лучшая защита от кибератак - ваши осторожность и бдительность. `);
-ImGui.GetIO().FontGlobalScale = 1; 
-                        }; */
 
                         DrawGradientButton("Теория", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[13] = !itinsoc[13];
