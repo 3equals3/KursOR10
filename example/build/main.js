@@ -185,7 +185,6 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
             }
             //тут указывай изображения. Их можно в любой репозиторий закинуть, просто мне было лень переносить
             createIMG("https://raw.githubusercontent.com/YAUIO/KursOR10/main/imgui/misc/images/ok%20%D0%BF%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84%201%20%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0.png",0,[1268,510]);// виды моделей
-            createIMG("https://raw.githubusercontent.com/YAUIO/KursOR10/main/imgui/misc/images/ok%20%D0%BF%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84%201%20%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0.png",0,[1268,510]);
             createIMG("https://raw.githubusercontent.com/YAUIO/KursOR10/main/imgui/misc/images/ok%20%D0%BF%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84%202%20%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.png",0,[1032,533]);//цели
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC.PNG",0,[983,536]);//элемент построения
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%20%D0%9C%D0%BE%D0%BD%D1%82%D0%B5-%D0%9A%D0%B0%D1%80%D0%BB%D0%BE.PNG",0,[1172,531]);//метод монте карло
@@ -500,48 +499,71 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                 
                         ImGui.BeginChild("Child", new ImGui.Vec2(ImGui.GetWindowSize().x * 4/5 - ImGui.GetWindowSize().x/5, ImGui.GetWindowSize().y - 50 - ImGui.CalcTextSize("AWG").y), false, window_flags);
                         ImGui.GetIO().FontGlobalScale = 0.3;
-                        DrawGradientButton("Модели и формы их представления", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Алгоритм и его свойства", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[0] = !cmodels[0];
                         });
                         if(cmodels[0]){ 
                             ImGui.GetIO().FontGlobalScale = 0.5;
                             ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-                            ImGui.TextWrapped(" Модель - объект или процесс, который для различных целей рассматривается вместо другого объекта или процесса. На данный момент широко распространены компьютерные модели, представляющие собой информационную модель в виде файла на компьютерном носителе и ее изображение на экране компьютера.\n Создание и использование моделей для решения научных и практических задач называется моделированием. ");
+                            //ImGui.TextWrapped(" Модель - объект или процесс, который для различных целей рассматривается вместо другого объекта или процесса. На данный момент широко распространены компьютерные модели, представляющие собой информационную модель в виде файла на компьютерном носителе и ее изображение на экране компьютера.\n Создание и использование моделей для решения научных и практических задач называется моделированием. ");
                             ImGui.GetIO().FontGlobalScale = 1;
                             DrawIMG(images.mod[0], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[1], ImGui.GetWindowSize().x);
                         }
 
 
-                        DrawGradientButton("Цели компьютерного моделирования", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Языки программирования", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[1] = !cmodels[1];
                         });
                         if(cmodels[1]){ 
-                            DrawIMG(images.mod[2], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[10], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[1], ImGui.GetWindowSize().x);
                         }
-                        DrawGradientButton("Современное моделирование", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Структурированный тип данных массива", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[2] = !cmodels[2];
                         });
                         if(cmodels[2]){ 
                             ImGui.GetIO().FontGlobalScale = 0.5;
                             ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-                            ImGui.TextWrapped(" Моделирование в научных исследованиях стало применяться еще в глубокой древности и постепенно захватывало все новые области научных знаний: техническое конструирование, строительство и архитектуру, астрономию, физику, химию, биологию и, наконец, общественные науки. Большие успехи и признание практически во всех отраслях современной науки принес методу моделирования ХХ в.\n\n Актуальность компьютерного моделирования состоит в том, что методами компьютерного моделирования пользуются специалисты практически всех отраслей и областей науки и техники - от истории до космонавтики, поскольку с их помощью можно прогнозировать и даже имитировать явления, события или проектируемые предметы в заранее заданных параметрах.\n\n В современном моделировании реализуется системных подход, состоящий в том, что моделируемый объект представляется в модели как система, т.е. совокупности объектов. Элементы системы могут быть естественными (существующие и просто выделяемые) и искусственными объектами (несуществующие условные единицы).\n Математическая модель системы называется динамической, если она учитывает изменение времени.\n\n Под компьютерным моделированием будем понимать процесс построения, изучения и применения моделей, объектов, изучаемых в технике, медицине, искусстве и других областях деятельности людей, с помощью компьютеров и компьютерных устройств.\n Стоит также отметить, что на данный момент широкое распространение получает трехмерное моделирование. Заключается оно в том, что необходимый объект представляется в виде трехмерной модели. Эта технология получила широкое распространение в современной архитектуре и 3D-печати, а также в киноиндустрии. Например, архитектры создают компьютерные модели городов или отдельных райнов, монтажеры создают невероятные спецэффекты для фильмов, 3D-принтер на основе загруженной в него модели создает физический предмет. ");
+                            DrawIMG(images.mod[2], ImGui.GetWindowSize().x);
+                            //ImGui.TextWrapped(" Моделирование в научных исследованиях стало применяться еще в глубокой древности и постепенно захватывало все новые области научных знаний: техническое конструирование, строительство и архитектуру, астрономию, физику, химию, биологию и, наконец, общественные науки. Большие успехи и признание практически во всех отраслях современной науки принес методу моделирования ХХ в.\n\n Актуальность компьютерного моделирования состоит в том, что методами компьютерного моделирования пользуются специалисты практически всех отраслей и областей науки и техники - от истории до космонавтики, поскольку с их помощью можно прогнозировать и даже имитировать явления, события или проектируемые предметы в заранее заданных параметрах.\n\n В современном моделировании реализуется системных подход, состоящий в том, что моделируемый объект представляется в модели как система, т.е. совокупности объектов. Элементы системы могут быть естественными (существующие и просто выделяемые) и искусственными объектами (несуществующие условные единицы).\n Математическая модель системы называется динамической, если она учитывает изменение времени.\n\n Под компьютерным моделированием будем понимать процесс построения, изучения и применения моделей, объектов, изучаемых в технике, медицине, искусстве и других областях деятельности людей, с помощью компьютеров и компьютерных устройств.\n Стоит также отметить, что на данный момент широкое распространение получает трехмерное моделирование. Заключается оно в том, что необходимый объект представляется в виде трехмерной модели. Эта технология получила широкое распространение в современной архитектуре и 3D-печати, а также в киноиндустрии. Например, архитектры создают компьютерные модели городов или отдельных райнов, монтажеры создают невероятные спецэффекты для фильмов, 3D-принтер на основе загруженной в него модели создает физический предмет. ");
                             ImGui.GetIO().FontGlobalScale = 1;
 
                             
                         };
-                        DrawGradientButton("Элементы построения динамических моделей систем", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Выполнение арифметических действий над элементами массива", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[3] = !cmodels[3];
                         });
                         if(cmodels[3]){ 
                             DrawIMG(images.mod[3], ImGui.GetWindowSize().x);
-                        }
-
-                        DrawGradientButton("Задачи", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                            DrawIMG(images.mod[4], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[5], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[6], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[7], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[8], ImGui.GetWindowSize().x);
+                        };
+                        DrawGradientButton("Поиск элементов с заданными свойствами", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[4] = !cmodels[4];
                         });
                         if(cmodels[4]){ 
+                            DrawIMG(images.mod[9], ImGui.GetWindowSize().x);
+                        };
+                        DrawGradientButton("Минимальный и максимальный элементы массива", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                            cmodels[5] = !cmodels[5];
+                        });
+                        if(cmodels[5]){ 
+                            DrawIMG(images.mod[10], ImGui.GetWindowSize().x);
+                        };
+                        DrawGradientButton("Преобразование элементов массива (Основные задачи)", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                            cmodels[6] = !cmodels[6];
+                        });
+                        if(cmodels[6]){ 
+                            DrawIMG(images.mod[11], ImGui.GetWindowSize().x);
+                        }
+                        
+
+                        DrawGradientButton("Задачи", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                            cmodels[7] = !cmodels[7];
+                        });
+                        if(cmodels[7]){ 
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF("Биологическая задача","https://docs.google.com/presentation/d/1xZ-Kjm-IQ8J3Nc11SkRGUcynFERs9Z4W");
                             DrawButtonHREF('Игра в рулетку',"https://docs.google.com/presentation/d/1QE4D1X0t19VKy0leNn1Kh66YDtoI5PxV");
@@ -567,9 +589,9 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                         }
 
                         DrawGradientButton("Teория", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            cmodels[6] = !cmodels[6];
+                            cmodels[8] = !cmodels[8];
                         });
-                        if(cmodels[6]){ 
+                        if(cmodels[8]){ 
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF("Алгоритмы обработки массивов","https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5");
                             DrawButtonHREF("Компьютерное информационные модели","https://eior.by/catalog_lecture/11-klass/informatika/10.php");
@@ -585,9 +607,9 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                         }
                         DrawGradientButton("Тесты", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            cmodels[7] = !cmodels[7];
+                            cmodels[9] = !cmodels[9];
                         });
-                        if(cmodels[7]){ 
+                        if(cmodels[9]){ 
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF("Компьютерные информационные модели","https://docs.google.com/forms/d/e/1FAIpQLSf0ffQ7AQ_E_exh3ujpR4RCegtc5wEdr9wM6a8vFGoOPP_Zgw/viewform");
                             DrawButtonHREF("Проектирование интерфейса оконного приложения с использованием элементов управления","https://docs.google.com/forms/d/e/1FAIpQLSeBJ57VLAcZn58Y15Gl8xuu5wuwD0n9nrAtqEP2AYK-sfGPJQ/viewform");
