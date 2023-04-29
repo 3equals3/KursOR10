@@ -676,7 +676,7 @@ ImGui.GetIO().FontGlobalScale = 1;
 };
 
 
-                        DrawGradientButton("Информационная система", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Создание таблиц баз данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[1] = !itinsoc[1];
                         });
                         if(itinsoc[1]){
@@ -688,7 +688,7 @@ DrawIMG(images.soc[1], ImGui.GetWindowSize().x);
 ImGui.GetIO().FontGlobalScale = 1;  
                         };
 
-                        DrawGradientButton("Информационные технологии в обществе", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Работа с таблицами баз данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[2] = !itinsoc[2];
                         });
                         if(itinsoc[2]){
@@ -700,7 +700,7 @@ DrawIMG(images.soc[2], ImGui.GetWindowSize().x);
 ImGui.GetIO().FontGlobalScale = 1;  
                         };
 
-                        DrawGradientButton("Информатизация общества", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Создание форм базы данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[3] = !itinsoc[3];
                         });
                         if(itinsoc[3]){
@@ -713,7 +713,7 @@ ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
 ImGui.GetIO().FontGlobalScale = 1; 
                         };
 
-                        DrawGradientButton("Виртуальная реальность", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Создание, экспорт отчётов", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[4] = !itinsoc[4];
                         });
                         if(itinsoc[4]){
@@ -727,11 +727,25 @@ ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
 DrawIMG(images.soc[3], ImGui.GetWindowSize().x); 
 ImGui.GetIO().FontGlobalScale = 1; 
                         };
+                        DrawGradientButton("Формирование запросов на выборку данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                            itinsoc[5] = !itinsoc[5];
+                        });
+                        if(itinsoc[5]){
+                            ImGui.GetIO().FontGlobalScale = 0.5;
+ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+//ImGui.TextWrapped(` Неотъемлемой частью современного мира становятся технологии виртуальной и дополненной реальности.
+Виртуальная реальность - созданный техническими средствами мир, передаваемый человеку через его ощущения. Для погружения в неё используйте шлемы, очки или комнаты виртуальной реальности
+Дополненная реальность - технологии, которые дополняют реальный мир, добавляя любые сенсорные данные. Чтобы испытать такое на себе, достаточно обзавестись очками или шлемом дополненной реальности, можно также использовать смартфон или планшет.
+Сфера применения таких технологий достаточно широка - им находят применение в медицине, образовании, инженерии и сфере развлечений.
+Новейшие достижения этих технологий указаны ниже: `);
+DrawIMG(images.soc[3], ImGui.GetWindowSize().x); 
+ImGui.GetIO().FontGlobalScale = 1; 
+                        };
 
                         DrawGradientButton("Теория", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[13] = !itinsoc[13];
+                            itinsoc[6] = !itinsoc[6];
                         });
-                        if(itinsoc[13]){
+                        if(itinsoc[6]){
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF("Информационные системы и технологии","https://drive.google.com/file/d/1IufwBqpSopSOLmnk5BxXj7tIiSVD_4N2");
                             //DrawButtonHREF('Информационные системы и технологии',"https://drive.google.com/file/d/1-Myd6mQLEEoDdFhMbmk13fe4pvbvYnr-");
@@ -750,11 +764,11 @@ ImGui.GetIO().FontGlobalScale = 1;
                         };
 
                         DrawGradientButton("Тесты", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            itinsoc[14] = !itinsoc[14];
+                            itinsoc[7] = !itinsoc[7];
                         });
-                        if(itinsoc[14]){
+                        if(itinsoc[7]){
                             /* DrawGradientButton("$Свернуть", new ImGui.Vec2(100, 25), ()=>{
-                                itinsoc[14] = false;
+                                itinsoc[7] = false;
                             }); */
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF('Безопасность в сети Интернет',"https://docs.google.com/forms/d/e/1FAIpQLSft0zf_ca1F2lwglCmh-GW8KQfv8e49VgZegJ77Ue9tus-D5g/viewform");
