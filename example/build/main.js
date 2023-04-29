@@ -545,30 +545,25 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
                         });
                         if(cmodels[3]){ 
                             DrawIMG(images.mod[3], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[4], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[5], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[6], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[7], ImGui.GetWindowSize().x);
-                            DrawIMG(images.mod[8], ImGui.GetWindowSize().x);
                         };
                         DrawGradientButton("Поиск элементов с заданными свойствами", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[4] = !cmodels[4];
                         });
                         if(cmodels[4]){ 
-                            DrawIMG(images.mod[9], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[4], ImGui.GetWindowSize().x);
                         };
                         DrawGradientButton("Минимальный и максимальный элементы массива", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[5] = !cmodels[5];
                         });
                         if(cmodels[5]){ 
-                            DrawIMG(images.mod[10], ImGui.GetWindowSize().x);
+                            DrawIMG(images.mod[5], ImGui.GetWindowSize().x);
                         };
                         DrawGradientButton("Преобразование элементов массива (Основные задачи)", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             cmodels[6] = !cmodels[6];
                         });
                         if(cmodels[6]){ 
-                            DrawIMG(images.mod[11], ImGui.GetWindowSize().x);
-                        }
+                            DrawIMG(images.mod[6], ImGui.GetWindowSize().x);
+                        };
                         
 
                         DrawGradientButton("Задачи", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
