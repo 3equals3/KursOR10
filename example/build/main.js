@@ -736,6 +736,7 @@ ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
 DrawIMG(images.soc[3], ImGui.GetWindowSize().x); 
 ImGui.GetIO().FontGlobalScale = 1; 
                         };
+                        
                         DrawGradientButton("Формирование запросов на выборку данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             itinsoc[5] = !itinsoc[5];
                         });
