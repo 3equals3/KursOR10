@@ -220,11 +220,23 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%B0%D0%BC%D1%8B%D0%B5%20%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8%20%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B3%D0%BE.PNG",1,[926,528]);//работы
 
             
-            
+            //1
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/e506922fcb280aa9ccbdf97d9d5237861e55e640/pages/styles/img/wordcloud.svg",2,[800,800]);
+            //2
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG",2,[1219,738]); //снимок
+            //3
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.jpg",2,[1180,664]); //графика
+            //4
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%97%D0%B2%D1%83%D0%BA.jpg",2,[934,787]); //звук
+            //5
+            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%97%D0%B2%D1%83%D0%BA.jpg",2,[934,787]); //звук
+            //6
+            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%97%D0%B2%D1%83%D0%BA.jpg",2,[934,787]); //звук
+            //7
+            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%97%D0%B2%D1%83%D0%BA.jpg",2,[934,787]); //звук
+            //8
+            createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%97%D0%B2%D1%83%D0%BA.jpg",2,[934,787]); //звук
+            //9
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BD%D0%B0%20%D0%B2%D0%B5%D0%B1-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85.PNG",2,[1330,784]); //видео
 
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%9E%D0%9E%D0%9F.PNG",3,[1015,473]); //совр ооп
@@ -905,11 +917,31 @@ ImGui.BulletText("  Публикация сайта на хостинге.");
 ImGui.BulletText("  Дальнейшее обслуживание.");
 ImGui.GetIO().FontGlobalScale = 1; 
                         };
-
-                        /*DrawGradientButton("Примеры сайтов", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        
+                        DrawGradientButton("Этапы создания веб-сайта", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[7] = !webconstr[7];
                         });
-                        if(webconstr[7]){ 
+                        if(webconstr[7]){
+                            ImGui.GetIO().FontGlobalScale = 0.5;
+ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+ImGui.TextWrapped(` Создание веб-сайта - это не только написание кода. Это процесс, включающий в себя следующие основные этапы:\n\n`);
+ImGui.BulletText("  Проектирование (поставить цели и задачи сайта).");
+ImGui.BulletText("  Разработка структуры (грамотно распределить информацию по веб-страницам).");
+ImGui.BulletText("  Создание дизайна (продумать графическую составляющую, цветовую палитру сайта).");
+ImGui.BulletText("  Создание мультимедиа-компонентов (создать графическую и звуковую составляющую, видео).");
+ImGui.BulletText("  Верстка страниц и шаблонов (создать html-код).");
+ImGui.BulletText("  Программирование (при создании сложного многофункционального сайта).");
+ImGui.BulletText("  Наполнение контентом.");
+ImGui.BulletText("  Тестирование и внесение корректировок.");
+ImGui.BulletText("  Публикация сайта на хостинге.");
+ImGui.BulletText("  Дальнейшее обслуживание.");
+ImGui.GetIO().FontGlobalScale = 1; 
+                        };
+
+                        /*DrawGradientButton("Примеры сайтов", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                            webconstr[8] = !webconstr[8];
+                        });
+                        if(webconstr[8]){ 
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF('Пример веб-страницы 1',"https://evsukanna.wixsite.com/proojazz");
                             DrawButtonHREF('Пример веб-страницы 2',"https://alexandrakib122.wixsite.com/fashion");
@@ -922,9 +954,9 @@ ImGui.GetIO().FontGlobalScale = 1;
                         }*/
 
                         DrawGradientButton("Теория", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            webconstr[8] = !webconstr[8];
+                            webconstr[9] = !webconstr[9];
                         });
-                        if(webconstr[8]){
+                        if(webconstr[9]){
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF('Основы веб-конструирования',"https://eior.by/catalog_lecture/11-klass/informatika/5.php");
                             DrawButtonHREF('Создание веб-страниц',"https://eior.by/catalog_lecture/11-klass/informatika/6.php");
@@ -937,9 +969,9 @@ ImGui.GetIO().FontGlobalScale = 1;
                         };
 
                         DrawGradientButton("Тесты", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            webconstr[9] = !webconstr[9];
+                            webconstr[10] = !webconstr[10];
                         });
-                        if(webconstr[9]){
+                        if(webconstr[10]){
                             ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
                             DrawButtonHREF('Основные понятия',"https://docs.google.com/forms/d/e/1FAIpQLScePAZBecVAkamQxLG7TR19FlFgpW6gGXiDA7slii3rLtmw-A/viewform");
                             DrawButtonHREF('Основы веб-конструирования',"https://docs.google.com/forms/d/e/1FAIpQLSfRCyPfSKewAYtlG4DTo1FMfZbJ_uLrr7IA_i3OmDozTHSK6A/viewform");
