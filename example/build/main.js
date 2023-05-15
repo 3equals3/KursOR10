@@ -239,15 +239,25 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
             //9
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BD%D0%B0%20%D0%B2%D0%B5%D0%B1-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85.PNG",2,[1330,784]); //видео
 
+            //1
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%9E%D0%9E%D0%9F.PNG",3,[1015,473]); //совр ооп
+            //2
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9E%D0%9E%D0%9F%20%D0%92%20PascalABC.PNG",3,[1324,480]); //в паск
+            //3
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0_%D0%BD%D0%B0_%D1%84%D0%BE%D1%80%D0%BC%D0%B5_%D0%9F%D0%BE%D0%B4%D1%87%D0%B5%D1%80%D0%BA%D0%BD%D1%83%D1%82%D1%8B%D0%B9_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA_Click.PNG",3,[1497,803]); //кнопка на форм
+            //4
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.%20%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B2%D0%B5%D1%82%D0%B0%20%D1%84%D0%BE%D1%80%D0%BC%D1%8B.PNG",3,[754,92]); //изм цв ф
+            //5
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20(2).PNG",3,[1349,390]); //станд эл упр
+            //6
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0.%20PictureBox.PNG",3,[1496,631]); //форма
+            //7
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B%20%D0%BC%D0%B5%D0%BD%D1%8E%20(1).jpg",3,[1112,592]); //комп меню
+            //8
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B.PNG",3,[999,828]); //диаграммы
+            //9
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80.PNG",3,[1002,721]); //граф р
+            //10
             createIMG("https://raw.githubusercontent.com/HOLLYCARROT/site/main/pages/styles/img/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8.PNG",3,[776,656]); //график
             
             ImGui.PushStyleColor(ImGui.Col.ScrollbarBg, new ImGui.Vec4(0.861,0.861,0.861,0.530));
@@ -818,141 +828,96 @@ ImGui.GetIO().FontGlobalScale = 1;
                         
                         ImGui.GetIO().FontGlobalScale = 0.3;
 
-                        DrawGradientButton("Веб-сайт", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Схема компьютера", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[0] = !webconstr[0];
                         });
                         if(webconstr[0]){
                             ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-DrawIMG(images.web[0], ImGui.GetWindowSize().x);
-ImGui.TextWrapped(` Веб-сайт представляет собой группу веб-страниц, связанных между собой гиперссылками. Существует четыре основных типа веб-сайтов:\n\n`);
-ImGui.BulletText("  Презентационные - реклама и продвижение определенных услуг и акций.");
-ImGui.BulletText("  Корпоративные - представляют компанию или предприятие.");
-ImGui.BulletText("  Онлайн-сервисы - направлены на повседневные нужды.");
-ImGui.BulletText("  Электронные магазины - созданы для получения прибыли от продажи товаров.");
-ImGui.TextWrapped(`\nПо технологии создания сайты делят на статические (информация хранится на сервере и отображается в браузере в одном и том же виде) и динамические (частично, а то и полностью генерируются в браузере или на сервере в процессе исполнения запроса пользователя).
-Также сайты разделяют в зависимости от типа взаимодействия с пользователем. Бывают пассивные сайты (информацию на них можно только просматривать) и интерактивные (предусмотрена возможность обмена данными с сервером).
-Все веб-страницы являются гипертекстовыми документами. Язык HTML (HyperText Markup Language) является одним из самых распространенных языков создания веб-сайтов. На этом языке задаются параметры и структура веб-страниц. Документы, написанные на языке HTML, имеют расширение .html. Основные компоненты этого языка - теги и атрибуты.
-
-  Теги - набор специальных символов языка HTML, которые идентифицируют html-документ, задают параметры страницы, определяют разделы и положение элементов на ней.\n\n`);
-
-ImGui.BulletText("  <html> - идентифицирует код html-документ, в него входят контейнеры <head> и <body>.");
-ImGui.BulletText("  <head> - содержит название документа, теги для поисковых машин. Эти данные не будут отображаться на исходной веб-странице.");
-ImGui.BulletText("  <body> - контейнер, который содержит отображающуюся на странице информацию.");
-
-ImGui.GetIO().FontGlobalScale = 1; 
+                            ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+                            DrawIMG(images.web[0], ImGui.GetWindowSize().x);
+                            ImGui.TextWrapped(`text `);
+                            ImGui.GetIO().FontGlobalScale = 1;
                         };
 
-                        DrawGradientButton("Создание веб-страниц", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
-                            webconstr[1] = !webconstr[1];
-                        });
-                        if(webconstr[1]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Важно понимать, что для создания веб-сайта важно не столько знание самого языка программирования, сколько излагающейся на сайте темы. Чтобы создать свой веб-сайт, достаточно воспользоватьмся протстым блокнотом, который есть на каждом компьютере, или другим текстовым редактором, или специальной программой для написания html-кода, или визуальным веб-редактором, или специальным конструктором сайтов. В случае с двумя последними создание веб-страниц окажется даже легче, ведь для работы с ними в принципе нет необходимости знать языка HTML. При работе с текстовым редактором документ нужно сохранять с расширением .html.
-
-  Любая веб-страница содержит следующие элементы:\n\n`);
-ImGui.BulletText("  Заголовок (часто - логотип)");
-ImGui.BulletText("  Основная часть (размещение контента)");
-ImGui.BulletText("  Элементы навигации (например, меню)");
-ImGui.BulletText("  Нижний колонтитул (размещение информации о разработчике или контактных данных)");
-ImGui.BulletText("  Боковые панели (размещение ссылок, рекламы и т.д)");
-ImGui.GetIO().FontGlobalScale = 1; 
-                        };
-
-                        DrawGradientButton("Каскадные таблицы стилей", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Внешние устройства", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[2] = !webconstr[2];
                         });
                         if(webconstr[2]){
                             ImGui.GetIO().FontGlobalScale = 0.5;
-ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` CSS (Cascading Style Sheets) - формальный язык описания внешнего вида документа. CSS дополняет возможности HTML.
-
-Вынесение стилей документа в отдельный файл значительно упрощает создание веб-сайтов, поскольку отпадает необходимость отдельно прописывать параметры для каждого элемента веб-страницы.
-
-  Способы подключения CSS к документу:\n\n`);
-ImGui.BulletText("  Встроенные стили - непосредственно в открывающем теге.");
-ImGui.BulletText("  Таблицы стилей - стилевое описание для всех идентичных элементов. Задаются тегом <style>.");
-ImGui.BulletText("  Внешние таблицы стилей - отдельные файлы с расширением .css, которые содержат стилевые правила.");
-DrawIMG(images.web[1], ImGui.GetWindowSize().x);
-ImGui.GetIO().FontGlobalScale = 1; 
+                            ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+                            DrawIMG(images.web[2], ImGui.GetWindowSize().x);
+                            ImGui.TextWrapped(`text `);
+                            ImGui.GetIO().FontGlobalScale = 1;
                         };
 
-                        DrawGradientButton("Графика на веб-страницах", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("ПО компьютера", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[3] = !webconstr[3];
                         });
                         if(webconstr[3]){
-                            DrawIMG(images.web[2], ImGui.GetWindowSize().x);
+                            ImGui.GetIO().FontGlobalScale = 0.5;
+                            ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+                            DrawIMG(images.web[3], ImGui.GetWindowSize().x);
+                            ImGui.TextWrapped(`text `);
+                            ImGui.GetIO().FontGlobalScale = 1;
                         };
 
-                        DrawGradientButton("Звук на веб-страницах", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Представление данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[4] = !webconstr[4];
                         });
                         if(webconstr[4]){
-                            DrawIMG(images.web[3], ImGui.GetWindowSize().x);
+                            ImGui.GetIO().FontGlobalScale = 0.5;
+                            ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+                            DrawIMG(images.web[4], ImGui.GetWindowSize().x);
+                            ImGui.TextWrapped(`text `);
+                            ImGui.GetIO().FontGlobalScale = 1;
                         };
 
-                        DrawGradientButton("Видео на веб-страницах", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Кодирование числовых данных", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[5] = !webconstr[5];
                         });
                         if(webconstr[5]){
-                            DrawIMG(images.web[4], ImGui.GetWindowSize().x);
+                            ImGui.GetIO().FontGlobalScale = 0.5;
+                            ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+                            DrawIMG(images.web[5], ImGui.GetWindowSize().x);
+                            ImGui.TextWrapped(`text `);
+                            ImGui.GetIO().FontGlobalScale = 1;
                         };
 
-                        DrawGradientButton("Этапы создания веб-сайта", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Кодирование текста", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[6] = !webconstr[6];
                         });
                         if(webconstr[6]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
+ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Создание веб-сайта - это не только написание кода. Это процесс, включающий в себя следующие основные этапы:\n\n`);
-ImGui.BulletText("  Проектирование (поставить цели и задачи сайта).");
-ImGui.BulletText("  Разработка структуры (грамотно распределить информацию по веб-страницам).");
-ImGui.BulletText("  Создание дизайна (продумать графическую составляющую, цветовую палитру сайта).");
-ImGui.BulletText("  Создание мультимедиа-компонентов (создать графическую и звуковую составляющую, видео).");
-ImGui.BulletText("  Верстка страниц и шаблонов (создать html-код).");
-ImGui.BulletText("  Программирование (при создании сложного многофункционального сайта).");
-ImGui.BulletText("  Наполнение контентом.");
-ImGui.BulletText("  Тестирование и внесение корректировок.");
-ImGui.BulletText("  Публикация сайта на хостинге.");
-ImGui.BulletText("  Дальнейшее обслуживание.");
+//ImGui.TextWrapped(` Информационная технология - совокупность способов, приемов и методов сбора, обработки и передачи данных. Такие технологии применяются во всех областях человеческой деятельности, а их инструментами являются аппаратное, программное и математическое обеспечение. Технологический процесс разбивают на этапы. Каждый этап состоит из операций и действий, приводящих к получению пользователем того, что он ожидает получить.
+//Для того чтобы использовать информационные технологии грамотно, нам необходимо узнать их классификацию из специальной таблицы ниже: `);
+DrawIMG(images.web[6], ImGui.GetWindowSize().x); 
 ImGui.GetIO().FontGlobalScale = 1; 
                         };
                         
-                        DrawGradientButton("Этапы создания веб-сайта", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Кодирование", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[7] = !webconstr[7];
                         });
                         if(webconstr[7]){
-                            ImGui.GetIO().FontGlobalScale = 0.5;
+ImGui.GetIO().FontGlobalScale = 0.5;
 ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
-ImGui.TextWrapped(` Создание веб-сайта - это не только написание кода. Это процесс, включающий в себя следующие основные этапы:\n\n`);
-ImGui.BulletText("  Проектирование (поставить цели и задачи сайта).");
-ImGui.BulletText("  Разработка структуры (грамотно распределить информацию по веб-страницам).");
-ImGui.BulletText("  Создание дизайна (продумать графическую составляющую, цветовую палитру сайта).");
-ImGui.BulletText("  Создание мультимедиа-компонентов (создать графическую и звуковую составляющую, видео).");
-ImGui.BulletText("  Верстка страниц и шаблонов (создать html-код).");
-ImGui.BulletText("  Программирование (при создании сложного многофункционального сайта).");
-ImGui.BulletText("  Наполнение контентом.");
-ImGui.BulletText("  Тестирование и внесение корректировок.");
-ImGui.BulletText("  Публикация сайта на хостинге.");
-ImGui.BulletText("  Дальнейшее обслуживание.");
-ImGui.GetIO().FontGlobalScale = 1; 
+//ImGui.TextWrapped(` Информационная технология - совокупность способов, приемов и методов сбора, обработки и передачи данных. Такие технологии применяются во всех областях человеческой деятельности, а их инструментами являются аппаратное, программное и математическое обеспечение. Технологический процесс разбивают на этапы. Каждый этап состоит из операций и действий, приводящих к получению пользователем того, что он ожидает получить.
+//Для того чтобы использовать информационные технологии грамотно, нам необходимо узнать их классификацию из специальной таблицы ниже: `);
+DrawIMG(images.web[7], ImGui.GetWindowSize().x); 
+ImGui.GetIO().FontGlobalScale = 1; ; 
                         };
 
-                        /*DrawGradientButton("Примеры сайтов", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
+                        DrawGradientButton("Различные подходы к измерению информации", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[8] = !webconstr[8];
                         });
                         if(webconstr[8]){ 
-                            ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
-                            DrawButtonHREF('Пример веб-страницы 1',"https://evsukanna.wixsite.com/proojazz");
-                            DrawButtonHREF('Пример веб-страницы 2',"https://alexandrakib122.wixsite.com/fashion");
-                            DrawButtonHREF('Пример веб-страницы 3',"https://rommelervin797.wixsite.com/my-site-1");
-                            DrawButtonHREF('Пример веб-страницы 4',"https://nazarau0911.wixsite.com/website-2");
-                            DrawButtonHREF('Пример веб-страницы 5',"https://nastassya04.wixsite.com/my-site-1");
-                            DrawButtonHREF('Пример веб-страницы 6',"https://rusichka408.wixsite.com/sskz");
-                            DrawButtonHREF('Пример веб-страницы 7',"https://tiglow.wixsite.com/classicgames");
-                            ImGui.InvisibleButton("#invb", new ImGui.Vec2(100,15))
-                        }*/
+ImGui.GetIO().FontGlobalScale = 0.5;
+ImGui.PushFont(ImGui.GetIO().Fonts.Fonts[6]);
+//ImGui.TextWrapped(` Информационная технология - совокупность способов, приемов и методов сбора, обработки и передачи данных. Такие технологии применяются во всех областях человеческой деятельности, а их инструментами являются аппаратное, программное и математическое обеспечение. Технологический процесс разбивают на этапы. Каждый этап состоит из операций и действий, приводящих к получению пользователем того, что он ожидает получить.
+//Для того чтобы использовать информационные технологии грамотно, нам необходимо узнать их классификацию из специальной таблицы ниже: `);
+DrawIMG(images.web[8], ImGui.GetWindowSize().x); 
+ImGui.GetIO().FontGlobalScale = 1;  
+                        }
 
                         DrawGradientButton("Теория", new ImGui.Vec2(ImGui.GetWindowSize().x, 70), ()=>{
                             webconstr[9] = !webconstr[9];
