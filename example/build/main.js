@@ -17,7 +17,7 @@ System.register(["imgui-js", "./imgui_impl.js", "./imgui_demo.js", "./imgui_memo
     var rnb = 0;
     
     //bg
-    var image_src = "https://raw.githubusercontent.com/3equals3/KursOR/main/imgui/misc/images/bg1.png";
+    var image_src = "https://raw.githubusercontent.com/Laris2011/KursOR10/main/imgui/misc/images/bg1.png";
     var image_texture;
     var image_temp;
 
