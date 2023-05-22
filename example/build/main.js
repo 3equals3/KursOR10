@@ -1771,7 +1771,7 @@ ImGui.GetIO().FontGlobalScale = 1;
                 "https://threejs.org/examples/textures/sprite.png",
                 "https://threejs.org/examples/textures/uv_grid_opengl.jpg",
             ];
-            image_src = "https://raw.githubusercontent.com/3equals3/KursOR/main/imgui/misc/images/bg1.png";
+            image_src = "https://raw.githubusercontent.com/Laris2011/KursOR10/main/imgui/misc/images/bg1.png";
             image_url = image_urls[0];
             image_element = null;
             image_gl_texture = null;
